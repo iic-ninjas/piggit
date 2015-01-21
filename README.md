@@ -1,5 +1,7 @@
 # Piggit
 
+![](https://s3.amazonaws.com/katalog-images/uploads%2F1421853886074-01351361bd3dc7c2d76ae7b043a74c6b%2Fpiggit.png)
+
 A small git-like utility which grants you local version control for your PostgreSQL DB schema and data.
 
 
