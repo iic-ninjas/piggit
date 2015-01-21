@@ -29,45 +29,16 @@ In order to use `piggit` you'll have to initialize it for a certain project. Run
 
 ### Commands
 
-```
-> piggit uninit
-```
+`> piggit uninit` - Removes all trace of `piggit` from the current folder.
 
-Removes all trace of `piggit` from the current folder.
+`> piggit save <name>` -Saves the current DB state under the specified name.
 
+`> piggit load <name>` - Loads the saved state specified by the name to the DB. This will override the current DB state, so you better save it before if you want to preserve it.
 
-```
-> piggit save <name>
-```
+`> piggit list <name>` - Lists all the saved DB states.
 
-Saves the current DB state under the specified name.
+`> piggit delete <name>` - Deletes the saved state specified by the name.
 
-```
-> piggit load <name>
-```
+`> piggit purge <name>` - Removed all saved states.
 
-Loads the saved state specified by the name to the DB. This will override the current DB state, so you better save it before if you want to preserve it.
-
-```
-> piggit list <name>
-```
-
-Lists all the saved DB states.
-
-```
-> piggit delete <name>
-```
-
-Deletes the saved state specified by the name.
-
-```
-> piggit purge <name>
-```
-
-Removed all saved states.
-
-```
-> piggit version
-```
-
-Prints the current version of `piggit`.
+`> piggit version` - Prints the current version of `piggit`.
